@@ -11,7 +11,7 @@ const Cards = (props) => {
 
 
   return (
-    <div className='flex-shrink-0 h-full w-full  p-5 bg-[#E6BE8A] rounded-2xl hover:bg-amber-200 duration-600'>
+    <div className='flex-shrink-0 h-full w-full  p-5 bg-[#E6BE8A] rounded-2xl hover:bg-amber-800 duration-600'>
         <Card className='flex justify-between'>
             <div className='overflow-hidden'>
                 <Card.Img className='h-80 w-60' variant='centre' src={props.img} />

@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://harshitsharma151619.github.io/Misara",
+  
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,11 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "redeploy": "npm run clean && npm run deploy",
-    "clean": "rimraf dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
